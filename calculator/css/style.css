@@ -1,0 +1,111 @@
+/* --------- GOOGLE FONTS ------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background: rgb(12, 17, 126);
+    background: linear-gradient(90deg, rgba(12, 17, 126, 1) 0%, rgba(37, 94, 201, 1) 58%, rgba(38, 156, 255, 0.9738270308123249) 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(0, 0, 0, .15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.output {
+    background-color: rgb(0, 0, 0, .25);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 28px;
+    position: relative;
+}
+
+.scoreFirst {
+    color: rgb(255, 255, 255, .5);
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.scoreSec {
+    color: rgb(255, 255, 255);
+}
+
+
+.container_button {
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+.button {
+    border: .5px solid rgba(100, 100, 100, 0.5);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #35353538;
+}
+
+.col-two {
+    grid-column: 1/3;
+}
+
+.value {
+    background-color: #0C7DE8;
+}
+
+.value:hover {
+    background-color: #1e71c0;
+}
+
+.plain {
+    background: #ca1130;
+}
+
+.plain:hover {
+    background: #ac0c27;
+}
+
+/* ---------- CLEAR ----------- */
+.last_clear,
+.clear {
+    background-color: #79b20f5c;
+}
+
+.last_clear:hover {
+    background-color: #69921ea9;
+}
+
+.clear:hover {
+    background-color: #69921ea9;
+}
